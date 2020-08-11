@@ -1,0 +1,38 @@
+server:
+  port: 8088
+  servlet:
+    #    # 项目contextPath
+    context-path: /demo
+
+
+wx:
+  native:
+    mchid: mchid_77777
+    appid: appid_123123
+    appkey: appkey_666666
+  app:
+    mchid: mchid_77777
+    appid: appid_123123
+    appkey: appkey_666666
+
+ali:
+  web:
+    mchid: mchid_77777
+    appid: appid_123123
+    appkey: appkey_666666
+  app:
+    mchid: mchid_77777
+    appid: appid_123123
+    appkey: appkey_666666
+
+
+mybatis:
+  mapper-locations: classpath*:mapper/*Mapper.xml
+  type-aliases-package: com.myself.mybatis.entity
+
+
+
+##日志级别
+logging:
+  level:
+    com.example.demo.mapper: debug
